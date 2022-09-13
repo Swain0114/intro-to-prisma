@@ -5,6 +5,9 @@
 -   main
 -   prisma-init
 -   define-model
+-   migrate-to-database
+-   prisma-client
+-   CRUD
 
 ## Steps
 
