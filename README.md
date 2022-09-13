@@ -15,7 +15,8 @@
 2. Exec `npm install`
 3. `npx prisma init` ---> this command would set postgreSQL as datasource provider
 4. [Register ElephantSQL](https://customer.elephantsql.com/login) which is a postgreSQL cloud service
-5. Define models
+5. Create `.env` file
+6. Define models
 
 ###### File `prisma/schema.prisma`
 
@@ -102,7 +103,7 @@ main()
     });
 ```
 
-10. Update and select
+11. Update and select
 
 ###### File `./update.ts`
 
@@ -141,7 +142,7 @@ main()
     });
 ```
 
-11. Delete multiple data
+12. Delete multiple data
 
 ###### File `./delete.ts`
 
