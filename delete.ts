@@ -46,7 +46,7 @@ async function main() {
 
 main()
     .then(async () => {
-        console.log('successfully created');
+        console.log('successfully deleted');
         await prisma.$disconnect();
     })
     .catch(async e => {

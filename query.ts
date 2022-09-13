@@ -3,13 +3,6 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 async function main() {
-    const post = await prisma.post.update({
-        where: { id: 1 },
-        data: { published: true },
-    });
-
-    console.log('post :>> ', post);
-
     const allUsers = await prisma.user.findMany({
         include: {
             Post: true,
@@ -22,7 +15,7 @@ async function main() {
 
 main()
     .then(async () => {
-        console.log('successfully updated');
+        console.log('successfully queried');
         await prisma.$disconnect();
     })
     .catch(async e => {
