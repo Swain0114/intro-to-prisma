@@ -20,7 +20,7 @@
 
 ###### File `prisma/schema.prisma`
 
-```
+```prisma
 model Post {
   id        Int      @id @default(autoincrement())
   title     String   @db.VarChar(255)
