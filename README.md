@@ -11,7 +11,7 @@
 
 ## Steps
 
-1. Clone main branch
+1. Clone `start` branch
 2. Exec `npm install`
 3. `npx prisma init` ---> this command would set postgreSQL as datasource provider
 4. [Register ElephantSQL](https://customer.elephantsql.com/login) which is a postgreSQL cloud service
