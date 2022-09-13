@@ -2,7 +2,7 @@
 
 ## Branches
 
--   main
+-   start
 -   prisma-init
 -   define-model
 -   migrate-to-database
