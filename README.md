@@ -51,7 +51,7 @@ model User {
 6. Check your [postgreSQL database](https://customer.elephantsql.com/login) it would show three tables which are **Post, Profile, User**
 7. Generate prisma client ---> `npx prisma generate`
    ![](https://i.imgur.com/mtBMguK.png)
-8. Check node_modules/.prisma/client/index.d.ts and you would see three type(**Post, Profile, User**) that are declared
+8. Check `node_modules/.prisma/client/index.d.ts` and you would see three types(**Post, Profile, User**) that are declared
 9. Create seeds ---> `npx prisma db seed`
 10. Create and select nested data
 
