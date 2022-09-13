@@ -1,4 +1,4 @@
-# intro-to-prisma
+# Intro to prisma
 
 ## Branches
 
@@ -51,7 +51,8 @@ model User {
 7. Generate prisma client ---> `npx prisma generate`
    ![](https://i.imgur.com/mtBMguK.png)
 8. Check node_modules/.prisma/client/index.d.ts and you would see three type(**Post, Profile, User**) that are declared
-9. Create and select nested data
+9. Create seeds ---> `npx prisma db seed`
+10. Create and select nested data
 
 ###### File `./create.ts`
 
